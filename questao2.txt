@@ -1,0 +1,21 @@
+impot java.Scannner;
+public class Main{
+  public static void main (string [] args){
+  Scanner scanner = new Scanner (System.in);
+  System.out.println("Digite o valor a");
+  double a = scanner.nextInt();
+  System.out.println("Digite o valor b");
+  double b = scanner.nextInt();
+  System.out.println("Digite o valor c");
+  double c = scanner.nextInt();
+  double soma = a+b;
+  System.out.println("a soma de a+b é maior que c");
+   if(soma < c){
+     System.out.println("manor")
+
+}
+   }
+
+
+    }
+  
