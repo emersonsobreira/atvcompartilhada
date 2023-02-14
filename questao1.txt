@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main{
+	public static void main(String[] args){
+	Scanner sac = new Scanner(System.in);
+	System.out.println("Digite o n1");
+	double a = sac.nextDouble();
+		if (a> = 0){
+		double dobro = a*2;
+			System.out.println("numero positivo:"+dobro);
+		}else{
+		double triplo = a*3;
+		System.out.println("numero negativo:"+triplo);
+		}
+	}
+}
